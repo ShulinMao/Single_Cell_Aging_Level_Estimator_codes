@@ -1,3 +1,4 @@
-# Single_Cell_Aging_Level_Estimator_codes
+# Single Cell Aging Level Estimator (SCALE)
 
-All the code for Single Cell Aging Level Estimator (SCALE).
+### Abstract
+As the average human lifespan increases, aging has become a global and urgent problem. Older ages are associated with increased risks of various disorders and burdens for the welfare system, calling for a more study of aging. Using biological age rather than chronological age is essential, when investigating factors that contribute to aging and related diseases. Although several biological age estimators have been developed, few of them characterize aging at the single-cell level and consider the differences across tissues. Therefore, we developed single-cell aging level estimators (SCALE) for different tissues which were based on single-cell RNA-seq data. This model was based on our tissue-specific aging-related gene sets, that were generated from several sources and selected by machine learning methods. Using SCALE, we observed the cell-to-cell variations of biological age and the effect of rejuvenation and disease on aging. With aging being increasingly recognized as a global challenge to be solved, our model could be used as a powerful tool to study aging at the single-cell level to address this healthcare challenge.
