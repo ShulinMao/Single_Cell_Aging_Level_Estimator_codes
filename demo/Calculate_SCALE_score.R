@@ -8,8 +8,8 @@ library(ggpubr)
 selected_aging_genes <- readRDS("./Selected_aging_gene_sets.rds")
 
 # read single-cell RNA-seq data
-tissue_name <- "facs-Limb_Muscle"
-tissue <- readRDS("./data/facs-Limb_Muscle.rds")
+tissue_name <- "facs-Aorta"
+tissue <- readRDS("./data/facs-Aorta.rds")
 
 
 # ------------------------------------------------------------------------------
@@ -49,4 +49,4 @@ ggplot(df_SCALE_score, aes(x = age_value, y = aging_scores)) +
   scale_fill_brewer(palette = "Set2") +
   guides(fill = "none") +
   labs(x = "Chronological age (m)", y = "SCALE score")
-ggsave("./figure/facs-Limb_Muscle_SCALE_score.pdf", width = 4, height = 4)
+ggsave("./figure/facs-Aorta_SCALE_score.pdf", width = 4, height = 4)
